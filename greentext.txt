@@ -1,0 +1,460 @@
+------------
+Matches in parentheses: ROLEX
+------------
+Matches in parentheses: ROLEX
+------------
+------------
+------------
+------------
+Matches pattern: 126500LN
+------------
+------------
+Matches in parentheses: 2件
+Matches pattern: 4131
+------------
+------------
+Matches pattern: 126500LN
+------------
+------------
+Matches in parentheses: 4件
+Matches pattern: 4131
+------------
+Matches pattern: 126610LN
+------------
+------------
+Matches in parentheses: 41件
+------------
+Matches in parentheses: 日
+Matches pattern: 3235
+------------
+Matches pattern: 126710BLRO
+------------
+------------
+Matches in parentheses: 49件
+Matches pattern: 1432
+------------
+Matches in parentheses: 日
+Matches pattern: 52018, 3285
+------------
+------------
+Matches pattern: 116500LN
+------------
+------------
+Matches in parentheses: 90件
+Matches pattern: 9775, 4130
+------------
+Matches pattern: 126710BLNR
+------------
+------------
+Matches in parentheses: 49件, 日
+Matches pattern: 3285
+------------
+Matches pattern: 124270
+------------
+------------
+------------
+------------
+Matches in parentheses: 28件
+Matches pattern: 3230
+------------
+Matches pattern: 124060
+------------
+------------
+------------
+Matches in parentheses: 29件
+------------
+Matches pattern: 3230
+------------
+Matches pattern: 126610LV
+------------
+------------
+Matches in parentheses: 31件
+------------
+Matches in parentheses: 日
+Matches pattern: 3235
+------------
+Matches pattern: 224270
+------------
+------------
+------------
+Matches in parentheses: 12件
+------------
+Matches pattern: 3230
+------------
+Matches pattern: 126711CHNR
+------------
+------------
+Matches in parentheses: 54件, 日
+Matches pattern: 3285
+------------
+------------
+Matches pattern: 116500LN
+------------
+------------
+Matches in parentheses: 94件
+Matches pattern: 3227, 4130
+------------
+Matches pattern: 126710BLRO
+------------
+------------
+Matches in parentheses: 16件, 日
+Matches pattern: 3285
+------------
+------------
+Matches pattern: 126529LN
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 4132
+------------
+Matches pattern: 126710BLNR
+------------
+------------
+Matches in parentheses: 17件, 日
+Matches pattern: 3285
+------------
+------------
+Matches pattern: 126000
+------------
+------------
+Matches in parentheses: 6件
+Matches pattern: 3230
+------------
+Matches pattern: 126613LB
+------------
+------------
+Matches in parentheses: 16件
+------------
+Matches in parentheses: 日
+Matches pattern: 3235
+------------
+------------
+Matches pattern: 126515LN
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 4131
+------------
+Matches pattern: 126622
+------------
+------------
+Matches in parentheses: 24件, スレート, 日
+Matches pattern: 3235
+------------
+Matches pattern: 126900
+------------
+------------
+------------
+------------
+Matches in parentheses: 17件
+------------
+Matches pattern: 3230
+------------
+Matches pattern: 126720VTNR
+------------
+------------
+Matches in parentheses: 4件, 日
+Matches pattern: 3285
+------------
+Matches pattern: 126713GRNR
+------------
+------------
+------------
+Matches in parentheses: 5件
+------------
+Matches in parentheses: 日
+Matches pattern: 3285
+------------
+Matches pattern: 126200
+------------
+------------
+------------
+Matches in parentheses: 0件, 日
+Matches pattern: 3235
+------------
+Matches pattern: 124273
+------------
+------------
+------------
+Matches in parentheses: 12件
+Matches pattern: 3230
+------------
+Matches pattern: 126603
+------------
+------------
+------------
+Matches in parentheses: 15件, 日
+Matches pattern: 3235
+------------
+------------
+Matches pattern: 126519LN
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 4131
+------------
+Matches in parentheses: グリーン, 148件, 日
+Matches pattern: 116610LV, 3167, 3135
+------------
+------------
+Matches pattern: 116506
+------------
+------------
+Matches in parentheses: 17件
+Matches pattern: 4130
+------------
+------------
+Matches pattern: 124300
+------------
+------------
+------------
+Matches in parentheses: 2件
+Matches pattern: 3230
+------------
+Matches pattern: 126600
+------------
+------------
+------------
+Matches in parentheses: 72件, 日
+Matches pattern: 1749, 3235
+------------
+------------
+Matches pattern: 126506
+------------
+------------
+Matches in parentheses: 0件
+------------
+Matches pattern: 4131
+------------
+------------
+Matches pattern: 126509
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 4131
+------------
+Matches pattern: 126622
+------------
+------------
+Matches in parentheses: 15件
+------------
+Matches in parentheses: 日
+Matches pattern: 3235
+------------
+------------
+------------
+Matches pattern: 126720VTNR
+------------
+------------
+Matches in parentheses: 8件
+------------
+Matches in parentheses: 日
+Matches pattern: 3285
+------------
+Matches pattern: 126234
+------------
+------------
+Matches in parentheses: 3件, 日
+Matches pattern: 3235
+------------
+------------
+------------
+------------
+------------
+------------
+Matches pattern: 126515LN
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 4131
+------------
+------------
+Matches pattern: 126503
+------------
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 4131
+------------
+Matches pattern: 126719BLRO
+------------
+------------
+Matches in parentheses: 4件, 日
+Matches pattern: 3285
+------------
+------------
+Matches pattern: 126519LN
+------------
+------------
+Matches in parentheses: 1件
+Matches pattern: 4131
+------------
+Matches pattern: 126334
+------------
+------------
+Matches in parentheses: 8件, 日
+------------
+------------
+------------
+------------
+------------
+------------
+Matches pattern: 278240
+------------
+------------
+------------
+------------
+Matches pattern: 126300
+------------
+------------
+------------
+------------
+Matches pattern: 16700
+------------
+Matches pattern: 228348RBR
+------------
+Matches pattern: 116503G
+------------
+Matches in parentheses: ROLEX, OMEGA, HUBLOT, ORIENT
+------------
+------------
+------------
+Matches in parentheses: epos, ALBA
+------------
+Matches in parentheses: アディダス, AUREOLE
+------------
+Matches in parentheses: ADEXE
+------------
+------------
+------------
+------------
+Matches in parentheses: AngelHeart, ORIS, HERMES, ELGIN, EDOX
+------------
+Matches in parentheses: AngelClover, ALIAS
+------------
+------------
+------------
+Matches in parentheses: Orobianco
+------------
+------------
+Matches in parentheses: VERSACE, IKEPOD
+------------
+Matches in parentheses: WENGER
+------------
+Matches in parentheses: INVICTA
+------------
+------------
+------------
+------------
+------------
+Matches in parentheses: ARCAFUTURA, CASIO, Cartier, GUCCI, CREPHA, Kentex, クラス14, CROTON
+Matches pattern: 1309
+------------
+------------
+------------
+Matches in parentheses: copha, Chronoswiss, CORUM
+------------
+------------
+Matches in parentheses: GRAHAM
+------------
+Matches in parentheses: COACH, グラフ
+------------
+------------
+Matches in parentheses: KARL-LEIMON, CITIZEN, SEIKO, SUNFLAME, スウォッチ, ZENITH, CHANEL, SKAGEN
+Matches pattern: 1412, 1136
+------------
+Matches in parentheses: Chopard, JAEGER-LECOULTRE, SONNE, SCHAUMBURG, セイコーインスツル, GIRARD-PERREGAUX, J.HARRISON
+------------
+Matches in parentheses: SINN, スピニカー, JACOB&CO, CENTURY
+------------
+Matches in parentheses: SUUNTO, CHAUMET, SPEAKE-MARIN, ZODIAC
+------------
+------------
+Matches in parentheses: TUDOR, TISSOT, テクノス, タイメックス, Tendence
+------------
+Matches in parentheses: TRIWA
+------------
+------------
+Matches in parentheses: Tiffany, ディーゼル
+------------
+------------
+Matches in parentheses: DUFA, ZEPPELIN
+------------
+Matches in parentheses: Tutima, CZAPEK
+------------
+Matches in parentheses: NOMOS, NAUTICA, nordgreen, NOA, NIXON, NORQAIN, HAMILTON, BVLGARI, FOSSIL, BREITLING, PANERAI
+------------
+------------
+------------
+Matches in parentheses: Breguet, Victorinox
+------------
+------------
+Matches in parentheses: ベルアンドロス, FURLA, BERING, Blancpain
+------------
+Matches in parentheses: BAUME&MERCIER
+------------
+Matches in parentheses: Furbo
+------------
+Matches in parentheses: FENDI, FERRAGAMO, BAROQUE
+------------
+------------
+------------
+------------
+Matches in parentheses: PIAGET
+------------
+Matches in parentheses: BULOVA, puma, POLICE
+------------
+------------
+Matches in parentheses: BRAHMAN
+------------
+------------
+------------
+------------
+Matches in parentheses: BRAUN, MONTBLANC
+------------
+------------
+------------
+Matches in parentheses: ミドー
+------------
+Matches in parentheses: Mondaine
+------------
+------------
+------------
+Matches in parentheses: JUNGHANS, ユーボート
+------------
+Matches in parentheses: ROLEX, LONGINES, ラドー, LUMINOX
+------------
+------------
+Matches in parentheses: ROTARY
+------------
+------------
+------------
+Matches in parentheses: Laco, WIRED
+------------
+Matches in parentheses: SUBMARINER, SEA-DWELLER, 駆動方式）自動巻き（874）手巻き（6）文字盤画面表示アナログ（413）文字盤色ブラック系（185）ブルー系（90）シルバー系（71）ホワイト系（93）グレー系（53）グリーン系（26）ピンク系（38）ブラウン系（22）ゴールド系（40）イエロー系（3）レッド系（5）オレンジ系（1）その他（20）日付表示デイト(日, 日/曜, 日/月, 175965
+Matches pattern: 2824, 175965
+------------
+Matches in parentheses: 121026
+Matches pattern: 121026
+------------
+Matches in parentheses: 25496
+Matches pattern: 25496
+------------
+------------
+------------
+------------
+------------
+Matches in parentheses: ROLEX
+------------
+------------
+------------
+------------
+------------
+------------
+------------
+------------
+------------
+------------
+------------
+Matches in parentheses: 駆動方式）【自動巻き】機械式の一種。腕の動きなどで自動的にゼンマイを巻き上げる機構を搭載し、その動力で時計を動かす。【ソーラー充電】電池式の一種。太陽電池ユニットを搭載し、光を電力に変換して時計を動かす。使わない間光に当てておく必要がある。【クォーツ】電池式のこと。機械式に比べて時刻の表示精度が高いほか、維持や管理もしやすい。比較的安価でもある。【手巻き】機械式の一種。昔ながらのマニュアル機構を搭載する。毎日一回ゼンマイを手で巻き上げる必要がある。【バッテリー充電】電池式の一種。内蔵バッテリーに蓄えた電力で時計を動かす。都度充電が必要。【スプリングドライブ】機械式にクォーツ（電池式）のギミックを組み合わせたセイコー独自の駆動方式。電池不要ながらクォーツ並みの時刻表示精度を持つ。【オートクォーツ】電池式の一種。腕の動きなどで発電する機構を搭載し、その電力で時計を動かす。発売時期の指定について発売日をもとに、発売時期で製品を絞り込むことができます。※発売時期が公表されていない製品は、発売日が登録できないため、発売時期を指定しても検索結果に表示されません。※発売時期を指定せず、「並び順」で「登録日の新しい順」を指定することで、すべての製品を新しい順に表示できます。(ただし、「登録日」は価格.comに製品情報が登録された日付で、「発売日」とは異なります。
+------------
