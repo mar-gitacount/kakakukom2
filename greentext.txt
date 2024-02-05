@@ -1,319 +1,309 @@
 ------------
 Matches in parentheses: ROLEX
 ------------
+------------
 Matches in parentheses: ROLEX
 ------------
 ------------
 ------------
+Matches in parentheses: ホワイト
+Matches pattern: 116509NG
 ------------
-Matches pattern: 126500LN
 ------------
+Matches in parentheses: 1件, WG, WG
+Matches pattern: 1664, 4130
 ------------
-Matches in parentheses: 2件
-Matches pattern: 4131
+Matches pattern: 116515LN
 ------------
 ------------
-Matches pattern: 126500LN
 ------------
+Matches in parentheses: 9件
+Matches pattern: 3679, 4130
 ------------
-Matches in parentheses: 4件
-Matches pattern: 4131
-------------
-Matches pattern: 126610LN
-------------
-------------
-Matches in parentheses: 41件
-------------
-Matches in parentheses: 日
-Matches pattern: 3235
-------------
-Matches pattern: 126710BLRO
-------------
-------------
-Matches in parentheses: 49件
-Matches pattern: 1432
-------------
-Matches in parentheses: 日
-Matches pattern: 52018, 3285
-------------
-------------
-Matches pattern: 116500LN
-------------
-------------
-Matches in parentheses: 90件
-Matches pattern: 9775, 4130
-------------
-Matches pattern: 126710BLNR
-------------
-------------
-Matches in parentheses: 49件, 日
-Matches pattern: 3285
-------------
-Matches pattern: 124270
-------------
-------------
-------------
-------------
-Matches in parentheses: 28件
-Matches pattern: 3230
-------------
-Matches pattern: 124060
-------------
-------------
-------------
-Matches in parentheses: 29件
-------------
-Matches pattern: 3230
-------------
-Matches pattern: 126610LV
-------------
-------------
-Matches in parentheses: 31件
-------------
-Matches in parentheses: 日
-Matches pattern: 3235
-------------
-Matches pattern: 224270
-------------
-------------
-------------
-Matches in parentheses: 12件
-------------
-Matches pattern: 3230
-------------
-Matches pattern: 126711CHNR
-------------
-------------
-Matches in parentheses: 54件, 日
-Matches pattern: 3285
-------------
-------------
-Matches pattern: 116500LN
-------------
-------------
-Matches in parentheses: 94件
-Matches pattern: 3227, 4130
-------------
-Matches pattern: 126710BLRO
-------------
-------------
-Matches in parentheses: 16件, 日
-Matches pattern: 3285
-------------
-------------
-Matches pattern: 126529LN
-------------
-------------
-Matches in parentheses: 0件
-Matches pattern: 4132
-------------
-Matches pattern: 126710BLNR
-------------
-------------
-Matches in parentheses: 17件, 日
-Matches pattern: 3285
-------------
-------------
-Matches pattern: 126000
-------------
-------------
-Matches in parentheses: 6件
-Matches pattern: 3230
-------------
-Matches pattern: 126613LB
-------------
-------------
-Matches in parentheses: 16件
-------------
-Matches in parentheses: 日
-Matches pattern: 3235
-------------
-------------
-Matches pattern: 126515LN
-------------
-------------
-Matches in parentheses: 0件
-Matches pattern: 4131
-------------
-Matches pattern: 126622
-------------
-------------
-Matches in parentheses: 24件, スレート, 日
-Matches pattern: 3235
-------------
-Matches pattern: 126900
-------------
-------------
-------------
-------------
-Matches in parentheses: 17件
-------------
-Matches pattern: 3230
-------------
-Matches pattern: 126720VTNR
-------------
-------------
-Matches in parentheses: 4件, 日
-Matches pattern: 3285
-------------
-Matches pattern: 126713GRNR
-------------
+Matches pattern: 116515LN
 ------------
 ------------
 Matches in parentheses: 5件
+Matches pattern: 3126, 4130
 ------------
-Matches in parentheses: 日
-Matches pattern: 3285
+Matches pattern: 116515LNA
 ------------
-Matches pattern: 126200
-------------
-------------
-------------
-Matches in parentheses: 0件, 日
-Matches pattern: 3235
-------------
-Matches pattern: 124273
-------------
-------------
-------------
-Matches in parentheses: 12件
-Matches pattern: 3230
-------------
-Matches pattern: 126603
-------------
-------------
-------------
-Matches in parentheses: 15件, 日
-Matches pattern: 3235
-------------
-------------
-Matches pattern: 126519LN
 ------------
 ------------
 Matches in parentheses: 0件
-Matches pattern: 4131
+Matches pattern: 3126, 4130
 ------------
-Matches in parentheses: グリーン, 148件, 日
-Matches pattern: 116610LV, 3167, 3135
-------------
-------------
-Matches pattern: 116506
+Matches pattern: 116518
 ------------
 ------------
-Matches in parentheses: 17件
-Matches pattern: 4130
+------------
+Matches in parentheses: 0件
+Matches pattern: 9168
+------------
+Matches pattern: 116518G
 ------------
 ------------
-Matches pattern: 124300
+------------
+Matches in parentheses: 0件
+Matches pattern: 9168
+------------
+------------
+Matches pattern: 116518G
+------------
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 5567
+------------
+Matches pattern: 116518NG
+------------
+------------
+Matches in parentheses: ホワイト, 0件
+Matches pattern: 6826
+------------
+Matches pattern: 116519
+------------
+------------
+------------
+Matches in parentheses: 1件
+Matches pattern: 5567
+------------
+------------
+Matches pattern: 116519
+------------
+------------
+------------
+------------
+Matches in parentheses: 6件
+Matches pattern: 6214
+------------
+Matches pattern: 116519
+------------
 ------------
 ------------
 ------------
 Matches in parentheses: 2件
-Matches pattern: 3230
+Matches pattern: 4737
 ------------
-Matches pattern: 126600
-------------
-------------
-------------
-Matches in parentheses: 72件, 日
-Matches pattern: 1749, 3235
-------------
-------------
-Matches pattern: 126506
-------------
-------------
-Matches in parentheses: 0件
-------------
-Matches pattern: 4131
-------------
-------------
-Matches pattern: 126509
-------------
-------------
-Matches in parentheses: 0件
-Matches pattern: 4131
-------------
-Matches pattern: 126622
-------------
-------------
-Matches in parentheses: 15件
-------------
-Matches in parentheses: 日
-Matches pattern: 3235
-------------
-------------
-------------
-Matches pattern: 126720VTNR
-------------
-------------
-Matches in parentheses: 8件
-------------
-Matches in parentheses: 日
-Matches pattern: 3285
-------------
-Matches pattern: 126234
-------------
-------------
-Matches in parentheses: 3件, 日
-Matches pattern: 3235
-------------
-------------
-------------
-------------
-------------
-------------
-Matches pattern: 126515LN
-------------
-------------
-Matches in parentheses: 0件
-Matches pattern: 4131
-------------
-------------
-Matches pattern: 126503
+Matches pattern: 116519NG
 ------------
 ------------
 ------------
 Matches in parentheses: 0件
-Matches pattern: 4131
-------------
-Matches pattern: 126719BLRO
+Matches pattern: 6214
 ------------
 ------------
-Matches in parentheses: 4件, 日
-Matches pattern: 3285
+Matches pattern: 116519NG
+------------
+Matches in parentheses: ピンク, 0件
+Matches pattern: 9168
+------------
+Matches pattern: 116523
+------------
+Matches in parentheses: ホワイトxブラック, 5件
+Matches pattern: 3476
+------------
+Matches in parentheses: SS, YG, SS, YG
+------------
+Matches pattern: 116523NG
 ------------
 ------------
-Matches pattern: 126519LN
+------------
+Matches in parentheses: 0件
+Matches pattern: 9168
+------------
+Matches pattern: 116523NG
+------------
 ------------
 ------------
 Matches in parentheses: 1件
-Matches pattern: 4131
-------------
-Matches pattern: 126334
+Matches pattern: 6214
 ------------
 ------------
-Matches in parentheses: 8件, 日
+Matches in parentheses: ホワイト, 1件
+Matches pattern: 116528, 6826
+------------
+Matches pattern: 116576TBR
 ------------
 ------------
+Matches in parentheses: 0件
+Matches pattern: 5567
 ------------
 ------------
-------------
-------------
-Matches pattern: 278240
-------------
-------------
-------------
-------------
-Matches pattern: 126300
+Matches pattern: 116589RBR
 ------------
 ------------
 ------------
 ------------
-Matches pattern: 16700
+Matches in parentheses: 0件
+Matches pattern: 6826
 ------------
-Matches pattern: 228348RBR
+Matches pattern: 116589RBR
 ------------
-Matches pattern: 116503G
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 9168
+------------
+------------
+Matches pattern: 116589RBR
+------------
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 9168
+------------
+Matches in parentheses: 0件
+Matches pattern: 116599RBRZER, 6826
+------------
+Matches pattern: 16518G
+------------
+Matches in parentheses: ホワイト, 0件
+Matches pattern: 6826
+------------
+Matches pattern: 16520
+------------
+------------
+Matches in parentheses: 1件
+Matches pattern: 1778
+------------
+------------
+Matches pattern: 116400V
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 3305
+------------
+------------
+Matches pattern: 116621
+------------
+------------
+Matches in parentheses: 6件, 日
+Matches pattern: 1896, 3135
+------------
+Matches pattern: 116621
+------------
+------------
+Matches in parentheses: 1件
+Matches pattern: 4737
+------------
+Matches in parentheses: 日
+Matches pattern: 3135
+------------
+------------
+Matches pattern: 116622
+------------
+------------
+Matches in parentheses: 39件
+------------
+Matches in parentheses: スレート, 日
+Matches pattern: 3135
+------------
+Matches pattern: 116622
+------------
+------------
+Matches in parentheses: 38件, 日
+Matches pattern: 1590, 3135
+------------
+Matches pattern: 116622
+------------
+------------
+Matches in parentheses: 18件, 日
+Matches pattern: 3135
+------------
+Matches pattern: 116655
+------------
+------------
+Matches in parentheses: 0件, 日
+Matches pattern: 8099, 3135
+------------
+Matches pattern: 116655
+------------
+------------
+Matches in parentheses: 9件, 日
+Matches pattern: 1701, 3135
+------------
+Matches pattern: 116695SATS
+------------
+------------
+Matches in parentheses: 1件, 日
+Matches pattern: 2282, 3135
+------------
+Matches pattern: 16628NGR
+------------
+------------
+------------
+Matches in parentheses: 0件
+Matches pattern: 9168
+------------
+------------
+Matches pattern: 268655
+------------
+------------
+Matches in parentheses: 0件, 日
+Matches pattern: 5567, 2236
+------------
+------------
+Matches pattern: 116680
+------------
+------------
+Matches in parentheses: 6件
+Matches pattern: 3476, 4161
+------------
+------------
+Matches pattern: 116681
+------------
+------------
+Matches in parentheses: 7件
+Matches pattern: 4169, 4161
+------------
+------------
+Matches pattern: 116688
+------------
+------------
+Matches in parentheses: 1件
+Matches pattern: 2368, 4161
+------------
+------------
+Matches pattern: 116688
+------------
+------------
+------------
+Matches in parentheses: 1件
+------------
+Matches pattern: 4161
+------------
+------------
+------------
+------------
+Matches pattern: 116689
+------------
+------------
+Matches in parentheses: 3件
+Matches pattern: 2195, 132007
+------------
+------------
+------------
+------------
+------------
+------------
+------------
+Matches pattern: 116400GV
+------------
+------------
+------------
+------------
+------------
+Matches in parentheses: ブラック
+------------
+Matches pattern: 4000
+------------
+Matches pattern: 116600
+------------
+------------
+------------
+------------
+------------
 ------------
 Matches in parentheses: ROLEX, OMEGA, HUBLOT, ORIENT
 ------------
@@ -328,9 +318,9 @@ Matches in parentheses: ADEXE
 ------------
 ------------
 ------------
-Matches in parentheses: AngelHeart, ORIS, HERMES, ELGIN, EDOX
+Matches in parentheses: AngelHeart, ORIS, HERMES, ELGIN
 ------------
-Matches in parentheses: AngelClover, ALIAS
+Matches in parentheses: EDOX, AngelClover, ALIAS
 ------------
 ------------
 ------------
@@ -348,7 +338,7 @@ Matches in parentheses: INVICTA
 ------------
 ------------
 Matches in parentheses: ARCAFUTURA, CASIO, Cartier, GUCCI, CREPHA, Kentex, クラス14, CROTON
-Matches pattern: 1309
+Matches pattern: 1305
 ------------
 ------------
 ------------
@@ -361,7 +351,7 @@ Matches in parentheses: COACH, グラフ
 ------------
 ------------
 Matches in parentheses: KARL-LEIMON, CITIZEN, SEIKO, SUNFLAME, スウォッチ, ZENITH, CHANEL, SKAGEN
-Matches pattern: 1412, 1136
+Matches pattern: 1413, 1137
 ------------
 Matches in parentheses: Chopard, JAEGER-LECOULTRE, SONNE, SCHAUMBURG, セイコーインスツル, GIRARD-PERREGAUX, J.HARRISON
 ------------
@@ -431,14 +421,14 @@ Matches in parentheses: ROTARY
 ------------
 Matches in parentheses: Laco, WIRED
 ------------
-Matches in parentheses: SUBMARINER, SEA-DWELLER, 駆動方式）自動巻き（874）手巻き（6）文字盤画面表示アナログ（413）文字盤色ブラック系（185）ブルー系（90）シルバー系（71）ホワイト系（93）グレー系（53）グリーン系（26）ピンク系（38）ブラウン系（22）ゴールド系（40）イエロー系（3）レッド系（5）オレンジ系（1）その他（20）日付表示デイト(日, 日/曜, 日/月, 175965
-Matches pattern: 2824, 175965
+Matches in parentheses: SUBMARINER, SEA-DWELLER, 駆動方式）自動巻き（874）手巻き（6）文字盤画面表示アナログ（414）文字盤色ブラック系（184）ブルー系（90）シルバー系（71）ホワイト系（95）グレー系（53）グリーン系（26）ピンク系（38）ブラウン系（22）ゴールド系（40）イエロー系（3）レッド系（5）オレンジ系（1）その他（20）日付表示デイト(日, 日/曜, 日/月, 175967
+Matches pattern: 2824, 175967
 ------------
-Matches in parentheses: 121026
-Matches pattern: 121026
+Matches in parentheses: 121025
+Matches pattern: 121025
 ------------
-Matches in parentheses: 25496
-Matches pattern: 25496
+Matches in parentheses: 25501
+Matches pattern: 25501
 ------------
 ------------
 ------------

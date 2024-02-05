@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import re
-from openpyxl import Workbook,load_workbook
+from openpyxl import Workbook, load_workbook
 from datetime import datetime
 import pandas as pd
 import os
@@ -48,17 +48,17 @@ def color_array_make(logs):
     parentheses = r"\((.*?)\)お気に入り登録"
     itemarray = []
     # logs = extract_brackets(logs)
-    
+
     for index, log in enumerate(logs):
         itemarray.append(str(log))
         # itemarray.append(log)
         if len(log) > 2:
             matches = re.search(pattern, log[1])
-            parenthesesmatches = re.search(parentheses,log[0])
+            parenthesesmatches = re.search(parentheses, log[0])
             if matches:
                 # itemarray.append(matches.group(1))
                 continue
-           
+
             if parenthesesmatches:
                 itemarray.append(parenthesesmatches.group(0))
                 itemarray.append(parenthesesmatches.group(1))
@@ -68,15 +68,13 @@ def color_array_make(logs):
         # item = str(log[0])
         # if item:
         #     itemarray.append(item)
-            
-            
-            
+
         # if str(log[0]):
         #     itemarray.append(str(log[0]))
         # else:
         #     itemarray.append(str(log[1]))
     combined_list = list(map(lambda x: x[0] + x[1], itemarray))
-    
+
     save_logs_to_file(itemarray, "color.txt")
     return itemarray
 
@@ -91,32 +89,33 @@ def refandcollor_array_make(logs):
     #     itemarray.append(str(log))
     save_logs_to_file(itemarray, "refandcolor.txt")
 
+
 def textprocess(text):
     # お気に入り登録以降を削除する正規表現
-    pattern = re.compile(r'お気に入り登録\d+.*?$', flags=re.DOTALL)
+    pattern = re.compile(r"お気に入り登録\d+.*?$", flags=re.DOTALL)
     # テキストを加工してお気に入り登録以降を削除
-    processed_text = re.sub(pattern, '', text, flags=re.DOTALL)
+    processed_text = re.sub(pattern, "", text, flags=re.DOTALL)
 
     # 結果を表示
     print(processed_text)
-    
-    
+
+
 def extract_brackets(text):
-    # '数字件' パターンを削除  
-    text = [re.sub(r'.*?(\w+\[.*?件.*?\]|\w+\(.*?件.*?\))', '', str(item)) for item in text]
+    # '数字件' パターンを削除
+    text = [
+        re.sub(r".*?(\w+\[.*?件.*?\]|\w+\(.*?件.*?\))", "", str(item)) for item in text
+    ]
     # text = re.sub(r'\d+件', '', text)
     # 正規表現パターン
-    pattern = r'\[([^\]]+)\]|\((.*?)\)'
+    pattern = r"\[([^\]]+)\]|\((.*?)\)"
     matches = [re.findall(pattern, item) for item in text]
 
     text = "\n".join(map(str, text))
     #  マッチング
     matches = re.findall(pattern, text)
-    matches = [item for item in matches if '件' not in item]
-   
+    matches = [item for item in matches if "件" not in item]
 
-            
-       # キーワードを含む文字列を空文字列に置換
+    # キーワードを含む文字列を空文字列に置換
     # matches = [(group[0].replace('件', '') if group[0] else group[1].replace('件', '')) for group in matches]
     # 結果を表示
     # for match in matches:
@@ -129,29 +128,37 @@ def extract_brackets(text):
 def textlog(text, file_path="text.txt"):
     with open("greentext.txt", "w", encoding="utf-8") as file:
         # cleaned_text = text.replace(" ", "").replace("\n", "")
-        
+
         for item in text:
             # parenthesesvaluematches = re.findall(r"\[([^]]+)\]", tbody_text)
-            color_in_parentheses = re.findall(r"\[([^]]+)\]",str(item))
+            color_in_parentheses = re.findall(r"\[([^]]+)\]", str(item))
             pattern = r"\[([^\]]+)\]お気に入り登録"
-            color_in_parentheses =re.findall(r"\[([^\]]+)\]お気に入り登録",str(item))
-            matches = re.search(pattern,item)
-            
+            color_in_parentheses = re.findall(r"\[([^\]]+)\]お気に入り登録", str(item))
+            matches = re.search(pattern, item)
+
             # 括弧内の文字列を取得
-            matches_in_parentheses = re.findall(r'\((.*?)\)', str(item))
-            
+            matches_in_parentheses = re.findall(r"\((.*?)\)", str(item))
+
             # パターンにマッチする部分を取得
-            matches_pattern = re.findall(r'\b(\d{4,6})([a-zA-Z]+)?', str(item))
-            
+            matches_pattern = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?", str(item))
+
             # ファイルに書き込み
             if matches:
-                file.write('Matcheskako' + ','.join(matches)+'\n')
+                file.write("Matcheskako" + ",".join(matches) + "\n")
             if color_in_parentheses:
-                file.write('Matcheskako' + ','.join(matches)+'\n')
+                file.write("Matcheskako" + ",".join(matches) + "\n")
             if matches_in_parentheses:
-                file.write('Matches in parentheses: ' + ', '.join(matches_in_parentheses) + '\n')
+                file.write(
+                    "Matches in parentheses: "
+                    + ", ".join(matches_in_parentheses)
+                    + "\n"
+                )
             if matches_pattern:
-                file.write('Matches pattern: ' + ', '.join([''.join(match) for match in matches_pattern]) + '\n')
+                file.write(
+                    "Matches pattern: "
+                    + ", ".join(["".join(match) for match in matches_pattern])
+                    + "\n"
+                )
             file.write("------------\n")
     # with open("greentext.txt", "w", encoding="utf-8") as file:
     #     for item in text:
@@ -161,7 +168,7 @@ def textlog(text, file_path="text.txt"):
     #         file.write("------------\n")
 
     with open(file_path, "w", encoding="utf-8") as file:
-        #  for i in range(len(text) - 1):  
+        #  for i in range(len(text) - 1):
         #     ts = text[i]
         #     nextitem = text[i + 1]
         #     if nextitem in "お気に入り":
@@ -169,14 +176,15 @@ def textlog(text, file_path="text.txt"):
         #         file.write("------------")
         if isinstance(text, list):
             text = [str(item) + "\n------------" for item in text]
-                
+
             text = "\n".join(map(str, text))
             file.write(text)
             file.write("------------")
-            
+
         else:
             file.write(text)
     return text
+
 
 # ログをファイルに保存する関数
 def save_logs_to_file(logs, file_path):
@@ -239,7 +247,9 @@ if not os.path.exists(file_name):
     wb = Workbook()
     ws = wb.active
     # ヘッダー行を追加
-    ws.append(["製品名", "リファレンスNO", "最高価格", "最安価格", "ブレスレット", "その他"])
+    ws.append(
+        ["製品名", "リファレンスNO", "最高価格", "最安価格", "ブレスレット", "その他"]
+    )
 else:
     # ファイルが存在する場合は既存のファイルを読み込み
     wb = load_workbook(file_name)
@@ -265,7 +275,7 @@ if tbody_tag:
 
     # 空白で分割する
     text_words = tbody_text.split()
-    
+
     textlog = textlog(text_words)
     # textlog = textlog(tbody_text)
     # textprocess(textlog)
@@ -322,20 +332,19 @@ if tbody_tag:
         # )
         for tpl in match
     ]
-    
-    
+
     refarray2 = [
-    "".join(map(str, tpl))
-    for word in text_words
-    if (
-        match := re.findall(
-            r"\b(\d{4,6})([a-zA-Z]+)?\s*(?!/).*?お気に入り.*?\b", 
-            word, 
-            flags=re.UNICODE
+        "".join(map(str, tpl))
+        for word in text_words
+        if (
+            match := re.findall(
+                r"\b(\d{4,6})([a-zA-Z]+)?\s*(?!/).*?お気に入り.*?\b",
+                word,
+                flags=re.UNICODE,
+            )
         )
-    )
-    for tpl in match
-]
+        for tpl in match
+    ]
 
     # refarray = [
     #     match
@@ -344,16 +353,16 @@ if tbody_tag:
     # ]
 
     save_logs_to_file(refarray, "ref.txt")
-    
+
     testlog = extract_brackets(tbody_text)
     coler_text_array = []
     for log in testlog:
         print(log[0] if log[0] else log[1])
-        
+
         coler_text_array.append(str(log[0]) if log[0] else str(log[1]))
-    
-    save_logs_to_file(coler_text_array,"kakolog.txt")
-    
+
+    save_logs_to_file(coler_text_array, "kakolog.txt")
+
     #!テストここまで
 
     #!リファレンスナンバー配列取得
@@ -364,26 +373,28 @@ if tbody_tag:
     # colormatches = re.findall(r"\[([^\]]+)\]|\((.+?)\)", tbody_text, flags=re.UNICODE)
     # colormatches = re.findall(r"\[([^\]]+)\]|\(([^)]+)\)", tbody_text, flags=re.UNICODE)
     # colormatches =  re.findall(r'\[([^\]]+)\]|\((.*?)\)', tbody_text)
-    
+
     # colormatches = re.findall(r'[^\[\(]*\[(([^\]]+))\]|[^\[\(]*\(((.*?))\)', tbody_text)
     # colormatches = re.findall(r'\((.*?)\)お気に入り登録', tbody_text)
     # colormatches = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録¥(\d{1,3}(?:,\d{3})*|―)",tbody_text)
-    
+
     # colormatches = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録.*?¥(\d{1,3}(,\d{3})*)",tbody_text)
-    
+
     # colormatches = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録.*?¥(\d{1,3}(?:,\d{3})*|―)",tbody_text)
     # colormatches = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録.*?¥(\d{1,3}(?:,\d{3}|\d{3})*|―)", tbody_text)
-    
+
     # colormatches = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録.*?¥(\d{1,3}(?:,\d{3})*|―)", tbody_text)
-    
-    
-    
-    
-    colormatches = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録.*?¥(\d{1,3}(?:,\d{3})*|―).*?¥(\d{1,3}(?:,\d{3})*|―)",tbody_text)
-    colormatches2 = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\[(.*?)\]お気に入り登録.*?¥(\d{1,3}(?:,\d{3})*|―).*?¥(\d{1,3}(?:,\d{3})*|―)", tbody_text)
+
+    colormatches = re.findall(
+        r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録.*?¥(\d{1,3}(?:,\d{3})*|―).*?¥(\d{1,3}(?:,\d{3})*|―)",
+        tbody_text,
+    )
+    colormatches2 = re.findall(
+        r"\b(\d{4,6})([a-zA-Z]+)?\s*\[(.*?)\]お気に入り登録.*?¥(\d{1,3}(?:,\d{3})*|―).*?¥(\d{1,3}(?:,\d{3})*|―)",
+        tbody_text,
+    )
     # colormatches2 = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\[(.*?)\]お気に入り登録.*?¥(\d{1,3}(?:,\d{3})*|―).*?¥(\d{1,3}(?:,\d{3})*|―).*?ロレックス.*", tbody_text)
 
-   
     # colormatches = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録.*?¥(\d{1,3}(?:,\d{3})*|―)(?=\d|$)", tbody_text)
 
     # colormatches = re.findall(r"\b(\d{4,6})([a-zA-Z]+)?\s*\((.*?)\)お気に入り登録¥(\d{1,3}(?:,\d{3})*|―)",tbody_text)
@@ -392,13 +403,15 @@ if tbody_tag:
     # colorarray = color_array_make(colormatches)
     colorarray = color_array_make(colormatches)
     colorarray2 = color_array_make(colormatches2)
-    result_list = list(map(lambda item: ''.join(re.findall(r"'(.*?)'", item)[:2]), colorarray2))
+    result_list = list(
+        map(lambda item: "".join(re.findall(r"'(.*?)'", item)[:2]), colorarray2)
+    )
     for item in result_list:
-        print(item) 
+        print(item)
     exceldatas = []
     index = 0
     for item in colorarray:
-        index +=1
+        index += 1
         itemmatches = re.findall(r"'(.*?)'", item)
         combined_element = itemmatches[0] + itemmatches[1]
         # 0番目と1番目の要素を削除
@@ -411,10 +424,10 @@ if tbody_tag:
         # ws[f"C{index}"] = itemmatches[3]
         # ws[f"D{index}"] = itemmatches[4]
         print(itemmatches[0])
-    
+
     index = 0
     for item in colorarray2:
-        index +=1
+        index += 1
         itemmatches = re.findall(r"'(.*?)'", item)
         combined_element = itemmatches[0] + itemmatches[1]
         # 0番目と1番目の要素を削除
@@ -442,9 +455,9 @@ if tbody_tag:
     # for i in colorarray2:
     #     index = str(i + 1)
     #     ws[f"A{index}"] = i
-        # ws[f"B{index}"] = refarray[i]
-        # ws[f"C{index}"] = pricearray[i][0]
-        # ws[f"D{index}"] = pricearray[i][1]
+    # ws[f"B{index}"] = refarray[i]
+    # ws[f"C{index}"] = pricearray[i][0]
+    # ws[f"D{index}"] = pricearray[i][1]
 
     # colorarray = color_array_make(text_words)
     refandcollor_array_make(refandcolormatches)
@@ -483,7 +496,7 @@ if tbody_tag:
     # ws[f"B{index}"] = refarray[index - 1]
     # ws[f"C{index}"] = pricearray[index - 1][0]
     # ws[f"D{index}"] = pricearray[index - 1][1]
-    
+
     if len(colorarray) < 40:
         item_index = len(colorarray)
     elif len(colorarray) >= 40:
@@ -507,7 +520,7 @@ if tbody_tag:
         # parenthesesvalues.append(parenthesevaluematch)
         print(f"{parenthesevaluematch}はかっこに囲まれた値")
     itemlistindex = 0
-    save_logs_to_file(tbody_text,"tbody.txt")
+    save_logs_to_file(tbody_text, "tbody.txt")
     for index, word in enumerate(text_words):
         # itemlistindex += 1
         # itemlist.append(word)
